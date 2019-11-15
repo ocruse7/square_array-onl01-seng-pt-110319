@@ -5,7 +5,8 @@ def square_array(array)
   array.each{ |number| 
    newArray[counter] = number*number
    counter+=1
-   
+  }
+  
   return newArray
   
 end
